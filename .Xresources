@@ -1,22 +1,22 @@
+!! LinuxBBQ default .Xresources !!
+
+!! will be overridden by .Xresources_colors
 *background: #000000
 *foreground: #ffffff
 
 *font:			-*-fixed-medium-r-semicondensed-*-13-*-*-*-*-*-*-*
 *boldFont:		-*-fixed-bold-r-semicondensed-*-13-*-*-*-*-*-*-*
 
-Xft*dpi:                96
-Xft*antialias:          true
-Xft*hinting:            none
-Xft.autohint:           0
-Xft.antialias:          1
-Xft.hinting:            true
-Xft.hintstyle:          hintfull
-Xft.dpi:                96
-Xft.rgba:               rgb
-Xft.lcdfilter:          lcddefault
+!! example for display configuration
+!Xft*dpi:                96
+!Xft*antialias:          true
+!Xft*hinting:            none
+!Xft.autohint:           0
+!Xft.antialias:          1
+!Xft.hinting:            true
+!Xft.hintstyle:          hintfull
+!Xft.dpi:                96
+!Xft.rgba:               rgb
+!Xft.lcdfilter:          lcddefault
 
-! uncommented in the live session:
-#include </home/user/.Xresources_colors>
-!! replace user ^^^^^^ with your actual username and 
-!! uncomment the line to use the LinuxBBQ xcolors
-!! use 'dkeger' to pick a theme
+#include ".Xresources_colors"
